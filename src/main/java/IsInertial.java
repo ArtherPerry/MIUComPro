@@ -37,13 +37,13 @@ public class IsInertial {
          return 1;
      }
 
-
       return 0;
   }
 
     public static void main(String[] args) {
       int [] a = {2,12,12,4,6,8,11};
       int [] a1 = {1,2,3,4};
+        System.out.println(isInertial(a));
         System.out.println(isInertial(a1));
     }
 

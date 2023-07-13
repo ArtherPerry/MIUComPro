@@ -20,7 +20,9 @@ public class StantonMeasure {
 
     public static void main(String[] args) {
        int [] arr = {1,2,1,3,3,3,3,3,3,4};
+       int[] arr1 = {0};
         System.out.println(stantonMeasure(arr));
+        System.out.println(stantonMeasure(arr1));
 
     }
 }

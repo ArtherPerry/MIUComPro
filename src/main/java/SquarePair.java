@@ -16,7 +16,7 @@ public class SquarePair {
             }
 
             for (int j = i+1; j <list.size(); j++){
-               double sqrt = Math.sqrt(list.get(i) + list.get(j));
+                double sqrt = Math.sqrt(list.get(i) + list.get(j));
                if(sqrt *10 % 10 == 0){
                    result ++;
                }
