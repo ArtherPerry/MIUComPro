@@ -34,15 +34,6 @@ public class Solve10 {
 
     }
 
-    public static int[] solve10Version1(){
-        int [] factorials = new int [10];
-        for (int i = 0; i<10;){
-        }
-
-        int [] result = {0};
-        return result;
-    }
-
     public static void main(String[] args) {
         int [] output = solve10();
         for (int e: output){
