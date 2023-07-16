@@ -1,7 +1,7 @@
 public class ConvertToBase10 {
     public static int convertToBase10(int [] a , int base){
       if(IsLegalNumber.isLegalNumber(a, base) == 0){
-          return 0;
+          return -1;
       }
       int result = 0;
       for (int i = 0;i<a.length; i++){
