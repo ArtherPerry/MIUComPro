@@ -15,7 +15,7 @@ public class IsCentered15 {
 
     public static void main(String[] args) {
         int [] arr =  {3,2,10,4,1,6,9};
-        int[] arr1 = {3,10,4,1,6,9};
+        int[] arr1 = {9,15,6};
         System.out.println(isCentered15(arr));
         System.out.println(isCentered15(arr1));
     }
