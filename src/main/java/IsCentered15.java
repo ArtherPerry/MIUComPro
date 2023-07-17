@@ -1,7 +1,7 @@
 public class IsCentered15 {
 
     public static int isCentered15(int [] a){
-        for (int i =0; i < a.length/2; i++){
+        for (int i =0; i < a.length; i++){
             int sum = 0;
             for (int j = i;j<a.length-i;j++){
                 sum += a[j];
