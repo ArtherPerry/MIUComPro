@@ -26,6 +26,7 @@ public class Vanilla {
 
 
 
+
     public static void main(String[] args) {
         int [] arr = {11, 22, 13, 34, 125};
         int [] arr1 = {9, 999, 99999, -9999};
@@ -40,5 +41,7 @@ public class Vanilla {
         System.out.println(isVanilla(arr4));
         System.out.println(isVanilla(arr5));
 
+
     }
+
 }
